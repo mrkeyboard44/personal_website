@@ -1,9 +1,71 @@
 html {
-    background-color: #1B1B1E; 
+    background-color: #02040F; 
+    font-family: 'Nunito Sans', sans-serif;
 }
-* {
-    color: white;
+p {
+    color: #02040F;
+    font-family: 'Newsreader', serif;
 }
-h1 {
-    color: #58A4B0;
+header {
+    background-color: #002642;
+    color: #E5DADA;
+    padding: 1rem;
+    font-size: 20px;
+}
+h2 {
+    background-color: #002642;
+    color: #E5DADA;
+    padding: 1rem;
+}
+
+article {
+    background-color: #E5DADA;
+    width: fit-content;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.nav1 {
+    background-color: #E59500;
+    padding: 1rem;
+    margin: 1rem;
+    width: max-content;
+}
+.li_nav {
+    display: inline;
+}
+.button1 {
+    background-color: #002642;
+    color: #E5DADA;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 10rem;
+}
+.button2 {
+    background-color: #002642;
+    color: #E5DADA;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.box1 {
+    background-color: #E59500;
+    padding: 1rem;
+    margin: 1rem;
+    width: fit-content;
+}
+.li_box1 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 10rem;
+}
+.box2 {
+    background-color: #E59500;
+    padding: 1rem;
+    margin: 1rem;
+    width: min-content;
 }
